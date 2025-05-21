@@ -10,7 +10,7 @@ on:
       - .gitignore
 
 jobs: 
-  build and push docker file to docker hub:
+  build_and_push_docker_file_to_docker_hub:
     runs-on: ubuntu-latest
     steps:
       - name: checkout code
